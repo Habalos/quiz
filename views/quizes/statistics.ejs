@@ -1,0 +1,18 @@
+<h2>Estadísticas</h2>
+<table class="stats">
+<tr>
+  <td>Total preguntas</td><td><%= stats.totalQuiz %></td>
+</tr>
+<tr>
+  <td>Total comentarios</td><td><%= stats.totalComments %></td>
+</tr>
+<tr>
+  <td>Media de comentarios</td><td><%= stats.totalComments / stats.totalQuiz %></td>
+</tr>
+<tr>
+  <td>Preguntas con comentarios</td><td><%= stats.numQuizComments %></td>
+</tr>
+<tr>
+  <td>Preguntas sin comentarios</td><td><%= stats.numQuizNoComments %></td>
+</tr>
+</table>

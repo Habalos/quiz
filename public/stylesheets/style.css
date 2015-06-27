@@ -1,0 +1,27 @@
+*                    { margin: 0; padding: 0; }
+body                 { font: 16px Georgia, serif; }
+
+#page-wrap           { margin: 2% auto; color: white; }
+#page-wrap > .main   { border: 1px solid #999; padding: 1%;
+	                   margin-bottom: 1px; color: black;}
+
+section > div        { padding: 20px; }
+header, nav, section { background: #eee; text-align: center;}
+footer               { background: #eee; text-align: center;}
+nav span             { margin: 0px 10px 0px 0px; display: inline-block;}
+
+span.small 					 { font-size:12px; }
+#ErrorMsgs           { color: #f61; font-size: smaler; }
+
+.right 				 {float: right;}
+
+.quiz_img 			 { height: 150px; float: left;}
+
+img.autor { height: 50px; }
+
+section table { margin: 0 auto; }
+section table td { text-align:left; }
+
+ul.comments form { display:inline; }
+
+table.stats td { border:1px solid #444; padding:4px; }
